@@ -1,0 +1,11 @@
+﻿global using ApiSample;
+global using ApiSample.Domain.Contracts;
+global using ApiSample.Domain.Customers;
+global using ApiSample.Infrastructure;
+global using ApiSample.Api.Models;
+global using AutoMapper;
+global using FluentValidation;
+global using FluentValidation.AspNetCore;
+global using Microsoft.AspNetCore.Mvc;
+global using Microsoft.EntityFrameworkCore;
+global using MediatR;
