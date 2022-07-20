@@ -7,6 +7,6 @@ public class CustomerByIdSpec : Specification<Customer>
     public CustomerByIdSpec(int id)
     {
         Query.Include(x => x.Addresses)
-            .Where(x => x.Id == id);
+             .Where(x => x.Id == id);
     }
 }

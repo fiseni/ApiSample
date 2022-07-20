@@ -42,7 +42,6 @@ using (var scope = app.Services.CreateScope())
 app.Run();
 
 
-
 static List<Customer> GetCustomers()
 {
     var customer1 = new Customer("Firstname1", "LastName1");
